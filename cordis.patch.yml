@@ -1,0 +1,10 @@
+# ternaryfox-sidebar bundle patch layer.
+#
+# Host half: lib/index.js registers a prefix route /tfapi/* that proxies to the
+# local tf-gateway (default http://127.0.0.1:8961), so the browser tab talks
+# same-origin and the gateway session cookie lives on the DSH origin.
+# Browser half: lib/client.js (declared via dsh.client) registers the
+# "Ternary 终端" tab in dsh-better-sidebar.
+- insert:
+    - id: ternaryfox-sidebar
+      name: ternaryfox-sidebar
