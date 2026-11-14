@@ -1,6 +1,6 @@
 {
   "name": "ternaryfox-sidebar",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "TernaryFox 终端 DSH 侧栏插件：原生 Tab 内嵌 Ternary agent（登录 / 话题 / 流式聊天），宿主半区提供 /tfapi 同源代理指向本地 tf-gateway。",
   "type": "module",
   "main": "lib/index.js",
